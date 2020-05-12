@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/music_stop"
+        android:title="无"/>
+
+    <item
+        android:id="@+id/music_1"
+        android:title="下雨声"/>
+
+    <item
+        android:id="@+id/music_2"
+        android:title="森林声"/>
+
+    <item
+        android:id="@+id/music_3"
+        android:title="海浪声"/>
+</menu>

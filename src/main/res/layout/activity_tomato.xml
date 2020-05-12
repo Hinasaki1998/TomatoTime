@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fanqiehongcolor">
+    <LinearLayout
+        android:id="@+id/textShow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/plannameshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/toma_planname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textview_bg"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/textview_border"
+            android:textSize="80sp" />
+
+        <LinearLayout
+            android:id="@+id/ButtonShow1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:visibility="visible">
+            <Button
+                android:id="@+id/normal_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/start_button"
+                android:textSize="20sp"
+                android:text="开始" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ButtonShow2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/normal_restart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/start_button"
+                android:textSize="20sp"
+                android:text="继续" />
+
+            <Button
+                android:id="@+id/normal_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/start_button"
+                android:textSize="20sp"
+                android:text="结束" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/normal_music"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="55dp"
+                android:background="@mipmap/musiclist" />
+
+            <ImageButton
+                android:id="@+id/normal_model"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:background="@mipmap/modelchange"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textShow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/FocustimeView"
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:rotation="90"
+            android:textColor="#FFFFFF"
+            android:textSize="240sp" />
+    </LinearLayout>
+</LinearLayout>

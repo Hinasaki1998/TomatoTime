@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fanqiehongcolor">#F05945</color>
+    <color name="fanqiehongcolor1">#F96d5b</color>
+    <color name="qianlvcolor">#8CFAAD</color>
+    <color name="qianlvcolor1">#70f097</color>
+    <color name="MiHuangcolor">#F7F3E9</color>
+    <color name="huilvcolor">#D5E1DD</color>
+    <color name="mibaicolor">#F7F3E9</color>
+    <color name="huisecolor">#747E80</color>
+    <color name="divider">#E5E5E5</color>
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_light">#59B29C</color>
+    <color name="date_picker_text_dark">#333333</color>
+    <color name="main_bg">#F0F0F0</color>
+    <color name="select_title_text">#B0B0B0</color>
+    <color name="current_time_bg">#FFFFFF</color>
+    <color name="current_time_text">#666666</color>
+    <color name="selected_time_text">#57C5E8</color>
+</resources>
